@@ -1,6 +1,6 @@
 baseurl = "http://yourSiteHere/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "ja"
+title = "萌える! 英語学習。"
 
 [taxonomies]
   tag = "tags"
