@@ -10,12 +10,22 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>first</title>
+      <title>タイトル2</title>
+      <link>http://localhost:1313/post/second/</link>
+      <pubDate>Sat, 18 Apr 2015 15:45:03 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/second/</guid>
+      <description>&lt;p&gt;Hello World2&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>firstタイトル</title>
       <link>http://localhost:1313/post/first/</link>
       <pubDate>Sat, 18 Apr 2015 15:45:03 +0900</pubDate>
       
       <guid>http://localhost:1313/post/first/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;
+      <description>&lt;p&gt;Hello World2&lt;/p&gt;
 </description>
     </item>
     

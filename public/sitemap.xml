@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/second/</loc>
+    <lastmod>2015-04-18T15:45:03+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/first/</loc>
     <lastmod>2015-04-18T15:45:03+09:00</lastmod>
   </url>
