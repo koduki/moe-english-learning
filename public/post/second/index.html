@@ -36,22 +36,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="/">My New Hugo Site</a>
             </div>
             
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+
             
         </div>
         
@@ -60,35 +48,89 @@
     
     <div class="container">
 
+<div class="row">
 
-<div class="container">	
-	<div class="row">
-		<div class="col-md-offset-1 col-md-10">
-			<h3>タイトル2</h3>
-				<span class="label label-primary">Sat Apr 18, 2015</span> in 
-				 using tags 			 
+    
+    <div class="col-lg-8">
+			<article>
 				
+				<h1><a href="http://localhost:1313/post/second/">タイトル2</a></h1>
+
+				
+				<p class="tags">
 					
-					<a href="/tags/development">Development</a>
+						
+						<a href="/tags/development">Development</a>
+					
+						 , 
+						<a href="/tags/blogging">Blogging</a>
+					
+				</p>
 				
-					 , 
-					<a href="/tags/blogging">Blogging</a>
-				
-			</small>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-offset-1 col-md-10">
-			<br>
-			<p>Hello World2</p>
+				<p><span class="glyphicon glyphicon-time"></span> Posted on Sat Apr 18, 2015</p>
 
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<hr>
-		</div>
-	</div>	
+				<p>Hello World2</p>
+
+
+				<p class="social-buttons">
+					<div class="fb-like" data-href="http://localhost:1313/post/second/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+					<a href="http://b.hatena.ne.jp/entry/http://localhost:1313/post/second/" class="hatena-bookmark-button" data-hatena-bookmark-title="Syncer" data-hatena-bookmark-layout="simple-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+					<a class="twitter-share-button" href="https://twitter.com/share" data-dnt="true" data-url="http://localhost:1313/post/second/" data-text="My New Hugo Site - タイトル2">Tweet</a>
+				</p>
+
+				<hr />
+			</article>
+    </div>
+
+		
+<div class="col-md-4">
+    
+
+    
+    <div class="well">
+        <h4>Tags</h4>
+        <div>
+            
+            
+            <a href="http://localhost:1313//tags/blogging" style="font-size: 28px;">
+                blogging
+            </a>
+            
+            <a href="http://localhost:1313//tags/development" style="font-size: 28px;">
+                development
+            </a>
+            
+            <a href="http://localhost:1313//tags/fast" style="font-size: 18px;">
+                fast
+            </a>
+            
+            <a href="http://localhost:1313//tags/go" style="font-size: 18px;">
+                go
+            </a>
+            
+        </div>
+        
+    </div>
+
+    <div class="well">
+        <h4>Recent Posts</h4>
+        <ul>
+            
+            <li><a href="/post/first/">firstタイトル</a></li>
+            
+            <li><a href="/post/second/">タイトル2</a></li>
+            
+        </ul>
+    </div>
+
+    
+    <div class="well">
+        <h4>Side Widget Well</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+    </div>
+
+</div>
+
 </div>
 
             <hr />
@@ -109,6 +151,28 @@
 
         <script src="/js/jquery-min-2.1.1.js"></script>
         <script src="/js/bootstrap.min-3.1.1.js"></script>
+
+        
+        <script>
+          window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+        </script>
+
+        
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+        	var js, fjs = d.getElementsByTagName(s)[0];
+        	if (d.getElementById(id)) return;
+        	js = d.createElement(s); js.id = id;
+        	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+        	fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        
+        <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async">
+          {lang: "ja"}
+        </script>
+
     <script>document.write('<script src="http://'
         + (location.host || 'localhost').split(':')[0]
 		+ ':1313/livereload.js?mindelay=10"></'
